@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GreenEdge Lawn Care — Lawrenceville, GA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <div class="logo">
+        <span class="logo-leaf">⬡</span>
+        <span class="logo-text">GreenEdge</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#results">Results</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#contact" class="nav-cta">Get a Quote</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#services">Services</a>
+      <a href="#why-us">Why Us</a>
+      <a href="#results">Results</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="#contact">Get a Quote</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-gradient"></div>
+      <div class="grass-blades" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span>
+      </div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">Lawrenceville, GA & Surrounding Areas</div>
+      <h1 class="hero-title">Your Lawn,<br><em>Perfected.</em></h1>
+      <p class="hero-sub">Professional lawn care that turns ordinary yards into neighborhood showpieces. Reliable, affordable, and backed by a satisfaction guarantee.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Get a Free Quote</a>
+        <a href="#services" class="btn btn-ghost">Our Services ↓</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">500+</span><span class="stat-label">Happy Clients</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">8 yrs</span><span class="stat-label">Experience</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Satisfaction</span></div>
+      </div>
+    </div>
+    <div class="hero-image-wrap">
+      <div class="hero-image">
+        <div class="lawn-illustration">
+          <div class="lawn-sky"></div>
+          <div class="lawn-house">
+            <div class="house-roof"></div>
+            <div class="house-body">
+              <div class="house-door"></div>
+              <div class="house-window"></div>
+              <div class="house-window"></div>
+            </div>
+          </div>
+          <div class="lawn-ground">
+            <div class="lawn-stripes">
+              <div></div><div></div><div></div><div></div><div></div><div></div>
+            </div>
+          </div>
+          <div class="lawn-trees">
+            <div class="tree"><div class="tree-top"></div><div class="tree-trunk"></div></div>
+            <div class="tree tree-sm"><div class="tree-top"></div><div class="tree-trunk"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">What We Do</div>
+        <h2>Professional Lawn Services</h2>
+        <p>Every service delivered with precision, care, and a commitment to making your property shine.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card" data-index="0">
+          <div class="service-icon-wrap">
+            <svg class="service-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="32" cy="32" r="28" fill="var(--green-light)"/>
+              <rect x="18" y="38" width="28" height="5" rx="2.5" fill="var(--green-dark)"/>
+              <rect x="22" y="43" width="4" height="6" rx="2" fill="var(--green-dark)"/>
+              <rect x="38" y="43" width="4" height="6" rx="2" fill="var(--green-dark)"/>
+              <path d="M14 38 Q20 22 32 26 Q44 22 50 38" stroke="var(--green-dark)" stroke-width="3" fill="none" stroke-linecap="round"/>
+              <path d="M24 26 Q26 18 32 20 Q38 18 40 26" stroke="var(--green)" stroke-width="2" fill="none" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Lawn Mowing</h3>
+          <p>Clean, even cuts every visit. We mow at the optimal height for your grass type and leave your yard looking sharp from every angle.</p>
+          <div class="service-price">From <strong>$45</strong> / visit</div>
+        </div>
+
+        <div class="service-card" data-index="1">
+          <div class="service-icon-wrap">
+            <svg class="service-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="32" cy="32" r="28" fill="var(--green-light)"/>
+              <rect x="30" y="14" width="4" height="36" rx="2" fill="var(--green-dark)"/>
+              <path d="M20 42 L44 42" stroke="var(--green)" stroke-width="3" stroke-linecap="round"/>
+              <path d="M24 36 L40 36" stroke="var(--green-dark)" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="32" cy="20" r="4" fill="var(--green)"/>
+            </svg>
+          </div>
+          <h3>Edging</h3>
+          <p>Crisp, defined borders along driveways, walkways, and beds. That clean edge that makes all the difference to curb appeal.</p>
+          <div class="service-price">From <strong>$25</strong> / visit</div>
+        </div>
+
+        <div class="service-card" data-index="2">
+          <div class="service-icon-wrap">
+            <svg class="service-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="32" cy="32" r="28" fill="var(--green-light)"/>
+              <path d="M20 44 C20 44 22 28 32 24 C42 28 44 44 44 44" fill="var(--green)" stroke="var(--green-dark)" stroke-width="2"/>
+              <circle cx="32" cy="22" r="4" fill="var(--green-dark)"/>
+              <circle cx="24" cy="30" r="2.5" fill="var(--green-dark)"/>
+              <circle cx="40" cy="30" r="2.5" fill="var(--green-dark)"/>
+              <path d="M26 44 Q32 36 38 44" stroke="var(--green-dark)" stroke-width="2" fill="none"/>
+            </svg>
+          </div>
+          <h3>Fertilization</h3>
+          <p>Customized fertilization programs that feed your lawn the nutrients it craves — thicker, greener grass season after season.</p>
+          <div class="service-price">From <strong>$65</strong> / treatment</div>
+        </div>
+
+        <div class="service-card" data-index="3">
+          <div class="service-icon-wrap">
+            <svg class="service-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="32" cy="32" r="28" fill="var(--green-light)"/>
+              <path d="M18 42 C18 38 22 34 26 36 C24 30 30 26 34 30 C32 24 40 22 42 28 C46 28 48 34 46 38" stroke="var(--green-dark)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+              <ellipse cx="32" cy="44" rx="14" ry="4" fill="var(--amber)" opacity="0.8"/>
+              <path d="M20 44 Q32 42 44 44" stroke="var(--amber-dark)" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Leaf Removal</h3>
+          <p>Full-season cleanup to keep your yard clear. We haul everything away so you can enjoy your outdoor space year-round.</p>
+          <div class="service-price">From <strong>$80</strong> / cleanup</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="why-us" id="why-us">
+    <div class="container">
+      <div class="why-us-inner">
+        <div class="why-us-left">
+          <div class="section-tag light">Why GreenEdge</div>
+          <h2>We Do Things<br>Differently</h2>
+          <p>We're not a franchise. We're your neighbors — and we take pride in every yard we touch like it's our own.</p>
+          <a href="#contact" class="btn btn-primary">Book Your First Visit</a>
+        </div>
+        <div class="why-us-right">
+          <div class="feature">
+            <div class="feature-icon">✓</div>
+            <div>
+              <h4>Licensed & Insured</h4>
+              <p>Full liability coverage on every job. Your property is protected, always.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">⏰</div>
+            <div>
+              <h4>Always On Time</h4>
+              <p>We show up when we say we will. No guessing, no waiting, no excuses.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">🌿</div>
+            <div>
+              <h4>Eco-Friendly Practices</h4>
+              <p>Low-emission equipment and organic fertilizer options for a greener planet.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">💬</div>
+            <div>
+              <h4>Clear Communication</h4>
+              <p>You'll always know your schedule, pricing, and what to expect — no surprises.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">🛡️</div>
+            <div>
+              <h4>Satisfaction Guarantee</h4>
+              <p>Not happy? We'll come back and make it right. No questions asked.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">📱</div>
+            <div>
+              <h4>Easy Online Booking</h4>
+              <p>Request quotes, schedule service, and pay — all online in minutes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BEFORE / AFTER -->
+  <section class="results" id="results">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">The GreenEdge Difference</div>
+        <h2>Before & After</h2>
+        <p>See what a single visit can do to transform a lawn from neglected to neighborhood-best.</p>
+      </div>
+      <div class="ba-grid">
+
+        <div class="ba-card">
+          <div class="ba-images">
+            <div class="ba-img ba-before">
+              <div class="ba-label">Before</div>
+              <div class="lawn-sim neglected">
+                <div class="sim-sky"></div>
+                <div class="sim-ground neglected-ground">
+                  <div class="tall-grass"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+                  <div class="weeds"><span>✿</span><span>✿</span><span>✿</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="ba-divider">→</div>
+            <div class="ba-img ba-after">
+              <div class="ba-label">After</div>
+              <div class="lawn-sim clean">
+                <div class="sim-sky"></div>
+                <div class="sim-ground clean-ground">
+                  <div class="clean-stripe-wrap">
+                    <div></div><div></div><div></div><div></div><div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ba-caption">
+            <strong>Overgrown → Pristine</strong>
+            <span>Mowing + Edging + Cleanup — 2 hrs</span>
+          </div>
+        </div>
+
+        <div class="ba-card">
+          <div class="ba-images">
+            <div class="ba-img ba-before">
+              <div class="ba-label">Before</div>
+              <div class="lawn-sim leaf-before">
+                <div class="sim-sky"></div>
+                <div class="sim-ground leaf-ground">
+                  <div class="leaves">
+                    <span>🍂</span><span>🍁</span><span>🍂</span><span>🍁</span>
+                    <span>🍂</span><span>🍁</span><span>🍂</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ba-divider">→</div>
+            <div class="ba-img ba-after">
+              <div class="ba-label">After</div>
+              <div class="lawn-sim clean">
+                <div class="sim-sky"></div>
+                <div class="sim-ground clean-ground dark">
+                  <div class="clean-stripe-wrap">
+                    <div></div><div></div><div></div><div></div><div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ba-caption">
+            <strong>Leaf-covered → Clear</strong>
+            <span>Fall Cleanup — full-property haul-away</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Happy Customers</div>
+        <h2>What Our Clients Say</h2>
+      </div>
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <blockquote>"GreenEdge completely transformed my yard. I've had other lawn services before but none of them came close to this level of detail. My edging looks like it was done with a laser. Highly recommend!"</blockquote>
+          <div class="reviewer">
+            <div class="reviewer-avatar">MR</div>
+            <div>
+              <strong>Marcus Reynolds</strong>
+              <span>Lawrenceville, GA</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card featured">
+          <div class="stars">★★★★★</div>
+          <blockquote>"After moving into our new home, the yard was a disaster. GreenEdge came out the next day, gave us a fair quote, and within a week it looked incredible. Now they're on a bi-weekly schedule and we couldn't be happier."</blockquote>
+          <div class="reviewer">
+            <div class="reviewer-avatar">SP</div>
+            <div>
+              <strong>Sandra & Phil Torres</strong>
+              <span>Buford, GA</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <blockquote>"The fall leaf removal service is worth every penny. They cleaned up three massive oak trees' worth of leaves in one visit and even got the stuff stuck in my flower beds. Yard looks better than it did in spring!"</blockquote>
+          <div class="reviewer">
+            <div class="reviewer-avatar">DK</div>
+            <div>
+              <strong>David Kim</strong>
+              <span>Snellville, GA</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-inner">
+        <div class="contact-info">
+          <div class="section-tag light">Get In Touch</div>
+          <h2>Request a Free Quote</h2>
+          <p>We serve Lawrenceville and surrounding Gwinnett County communities. Fill out the form and we'll get back to you within 24 hours.</p>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="contact-icon">📞</span>
+              <div>
+                <strong>Call or Text</strong>
+                <a href="tel:+17709551234">(770) 955-1234</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📍</span>
+              <div>
+                <strong>Service Area</strong>
+                <span>Lawrenceville · Buford · Snellville · Grayson · Lilburn · Loganville</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">🕐</span>
+              <div>
+                <strong>Hours</strong>
+                <span>Mon–Sat: 7 AM – 7 PM</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap">
+          <form class="contact-form" id="quote-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname" placeholder="John" required />
+              </div>
+              <div class="form-group">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname" placeholder="Smith" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="john@email.com" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="(770) 000-0000" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="address">Property Address</label>
+              <input type="text" id="address" name="address" placeholder="123 Main St, Lawrenceville, GA" required />
+            </div>
+            <div class="form-group">
+              <label for="service">Service Needed</label>
+              <select id="service" name="service">
+                <option value="">Select a service...</option>
+                <option>Lawn Mowing</option>
+                <option>Edging</option>
+                <option>Fertilization</option>
+                <option>Leaf Removal</option>
+                <option>Full Lawn Package</option>
+                <option>Other / Not Sure</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Anything else we should know?</label>
+              <textarea id="message" name="message" rows="3" placeholder="Yard size, special requests, preferred schedule..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Send My Quote Request →</button>
+            <p class="form-note">We'll respond within 24 hours. No spam, ever.</p>
+          </form>
+          <div class="form-success" id="form-success">
+            <div class="success-icon">✓</div>
+            <h3>Request Received!</h3>
+            <p>Thanks! We'll reach out within 24 hours with your free quote.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="logo">
+            <span class="logo-leaf">⬡</span>
+            <span class="logo-text">GreenEdge</span>
+          </div>
+          <p>Professional lawn care for Lawrenceville, GA and surrounding Gwinnett County communities.</p>
+        </div>
+        <div class="footer-links">
+          <strong>Services</strong>
+          <a href="#services">Lawn Mowing</a>
+          <a href="#services">Edging</a>
+          <a href="#services">Fertilization</a>
+          <a href="#services">Leaf Removal</a>
+        </div>
+        <div class="footer-links">
+          <strong>Company</strong>
+          <a href="#why-us">About Us</a>
+          <a href="#testimonials">Reviews</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 GreenEdge Lawn Care LLC. All rights reserved.</span>
+        <span>Lawrenceville, GA 30043</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
